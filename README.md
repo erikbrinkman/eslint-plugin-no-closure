@@ -1,5 +1,7 @@
 # No Closures
 
+[![tests](https://github.com/erikbrinkman/eslint-plugin-no-closure/actions/workflows/tests.yml/badge.svg)](https://github.com/erikbrinkman/eslint-plugin-no-closure/actions/workflows/tests.yml)
+
 An eslint plugin to prevent unwanted function closures.
 
 ## Usage
