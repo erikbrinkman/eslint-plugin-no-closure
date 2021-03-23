@@ -1,5 +1,6 @@
 # No Closures
 
+[![npm](https://img.shields.io/npm/v/eslint-plugin-no-closure)](https://www.npmjs.com/package/eslint-plugin-no-closure)
 [![tests](https://github.com/erikbrinkman/eslint-plugin-no-closure/actions/workflows/tests.yml/badge.svg)](https://github.com/erikbrinkman/eslint-plugin-no-closure/actions/workflows/tests.yml)
 
 An eslint plugin to prevent unwanted function closures.
@@ -25,7 +26,8 @@ Then add it to your eslintrc
 
 ## disallow closing around variables for tagged functions (no-tagged-closures)
 
-Sometimes you want to prevent a function from referencing variables outside of its scope. Since this is allowed in javascript it's not possible to outright ban, but this rule will report where this is happening for tagged functions.
+Sometimes you want to prevent a function from referencing variables outside of its scope, for example if you intend to serialize the function.
+Since this is allowed in javascript, it's not possible to outright ban, but this rule will report where this is happening for tagged functions.
 
 ### Rule Details
 
