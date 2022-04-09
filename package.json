@@ -8,10 +8,14 @@
     "eslint",
     "eslintplugin"
   ],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "fmt": "prettier --write *.{ts,json}",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepack": "yarn build"
   },
   "jest": {
     "preset": "ts-jest",
