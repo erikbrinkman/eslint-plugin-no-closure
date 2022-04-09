@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-closure",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "Erik Brinkman <erik.brinkman@gmail.com>",
   "license": "MIT",
