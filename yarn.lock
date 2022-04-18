@@ -1043,7 +1043,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/estree@npm:*, @types/estree@npm:^0.0.46":
+"@types/estree@npm:*, @types/estree@npm:0.0.46":
   version: 0.0.46
   resolution: "@types/estree@npm:0.0.46"
   checksum: 620f7549c8cf99fe1c91a943a42ae2684c18f6007dc1bd6a439a2bf3204022ab746ffb3be5244c70d43a822beeb3c948216be1a69cb25e79005daeca4ebe5722
@@ -1985,7 +1985,7 @@ __metadata:
   resolution: "eslint-plugin-no-closure@workspace:."
   dependencies:
     "@types/eslint": ^8.4.1
-    "@types/estree": ^0.0.46
+    "@types/estree": 0.0.46
     "@types/jest": ^27.4.1
     eslint: ^8.13.0
     jest: ^27.5.1
