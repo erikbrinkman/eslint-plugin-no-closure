@@ -36,7 +36,7 @@ A tagged function must have a comment that starts with `eslint-no-closure` immed
 
 ### Options
 
-By default, the rule will report the declarations of variables that are closed in tagged function, tagged functions that cose any variables, and any references to closed variables within tagged functions.
+By default, the rule will report the declarations of variables that are closed in tagged function, tagged functions that close any variables, and any references to closed variables within tagged functions.
 Since this produces up to three reports for a single violation, each class of reports can be independently disabled.
 
 - `declaration` set to `"never"` to not report the declaration of variables that are closed (Default `"always"`).
