@@ -2,6 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/eslint-plugin-no-closure)](https://www.npmjs.com/package/eslint-plugin-no-closure)
 [![tests](https://github.com/erikbrinkman/eslint-plugin-no-closure/actions/workflows/tests.yml/badge.svg)](https://github.com/erikbrinkman/eslint-plugin-no-closure/actions/workflows/tests.yml)
+[![license](https://img.shields.io/github/license/erikbrinkman/eslint-plugin-no-closure)](LICENSE)
 
 An eslint plugin to prevent unwanted function closures.
 
