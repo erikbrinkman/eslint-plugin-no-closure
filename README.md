@@ -6,6 +6,13 @@
 
 An eslint plugin to prevent unwanted function closures.
 
+> [!WARNING]
+> **This project is archived and unmaintained.** It targets the ESLint 8 API and
+> has no flat-config support for ESLint 9. The main use case — catching closures
+> in functions you serialize to a Web Worker — has largely been superseded by
+> bundler-resolved workers (`new Worker(new URL(...), { type: 'module' })`) plus
+> [Comlink](https://github.com/GoogleChromeLabs/comlink). Feel free to fork.
+
 ## Usage
 
 To use this plugin, first install it
